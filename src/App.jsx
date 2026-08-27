@@ -55,27 +55,6 @@ export default function App() {
 
   return (
     <div className="app">
-      <section className="hero-intro">
-  <p className="hero-eyebrow">COMPUTER SCIENCE · AI · MACHINE LEARNING</p>
-
-  <h1>Hi, I'm Hania Zaki.</h1>
-
-  <h2>
-    I build practical AI, machine learning, and software projects.
-  </h2>
-
-  <p className="hero-description">
-    I'm a Computer Science student exploring machine learning, AI, and
-    software development through hands-on projects. I experiment with
-    emerging tools and workflows and turn ideas into working applications.
-  </p>
-
-  <div className="hero-tags">
-    <span>Machine Learning</span>
-    <span>Artificial Intelligence</span>
-    <span>Software Development</span>
-  </div>
-</section>
       <header className="topbar">
         <div className="brand">
           <span className="brand-dot" />
