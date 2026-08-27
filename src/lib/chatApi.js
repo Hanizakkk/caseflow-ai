@@ -3,7 +3,7 @@
 // frontend's code or its built bundle.
 // Set this to your deployed Vercel function's full endpoint URL —
 // see caseflow-vercel/README.md. Example: "https://caseflow-backend.vercel.app/api/chat"
-const BACKEND_URL = "https://YOUR-PROJECT.vercel.app/api/chat";
+const BACKEND_URL = "https://caseflow-backend-vercel.vercel.app/api/chat";
 
 export async function chatReply(message, history) {
   const res = await fetch(BACKEND_URL, {
